@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		671F6E7222D5DC3800A2CF2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 671F6E7122D5DC3800A2CF2D /* AppDelegate.m */; };
-		671F6E7522D5DC3800A2CF2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 671F6E7422D5DC3800A2CF2D /* ViewController.m */; };
 		671F6E7822D5DC3800A2CF2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671F6E7622D5DC3800A2CF2D /* Main.storyboard */; };
 		671F6E7A22D5DC3A00A2CF2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671F6E7922D5DC3A00A2CF2D /* Assets.xcassets */; };
 		671F6E7D22D5DC3A00A2CF2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671F6E7B22D5DC3A00A2CF2D /* LaunchScreen.storyboard */; };
 		671F6E8022D5DC3A00A2CF2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 671F6E7F22D5DC3A00A2CF2D /* main.m */; };
+		671F6E8822D8A2B600A2CF2D /* NSOpearationChildrenClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 671F6E8722D8A2B600A2CF2D /* NSOpearationChildrenClass.m */; };
+		671F6E8922DDE1A100A2CF2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 671F6E7422D5DC3800A2CF2D /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		671F6E7C22D5DC3A00A2CF2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		671F6E7E22D5DC3A00A2CF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		671F6E7F22D5DC3A00A2CF2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		671F6E8622D8A2B600A2CF2D /* NSOpearationChildrenClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOpearationChildrenClass.h; sourceTree = "<group>"; };
+		671F6E8722D8A2B600A2CF2D /* NSOpearationChildrenClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOpearationChildrenClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				671F6E7122D5DC3800A2CF2D /* AppDelegate.m */,
 				671F6E7322D5DC3800A2CF2D /* ViewController.h */,
 				671F6E7422D5DC3800A2CF2D /* ViewController.m */,
+				671F6E8622D8A2B600A2CF2D /* NSOpearationChildrenClass.h */,
+				671F6E8722D8A2B600A2CF2D /* NSOpearationChildrenClass.m */,
 				671F6E7622D5DC3800A2CF2D /* Main.storyboard */,
 				671F6E7922D5DC3A00A2CF2D /* Assets.xcassets */,
 				671F6E7B22D5DC3A00A2CF2D /* LaunchScreen.storyboard */,
@@ -141,7 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				671F6E7522D5DC3800A2CF2D /* ViewController.m in Sources */,
+				671F6E8922DDE1A100A2CF2D /* ViewController.m in Sources */,
+				671F6E8822D8A2B600A2CF2D /* NSOpearationChildrenClass.m in Sources */,
 				671F6E8022D5DC3A00A2CF2D /* main.m in Sources */,
 				671F6E7222D5DC3800A2CF2D /* AppDelegate.m in Sources */,
 			);
@@ -285,7 +291,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NSOperation_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,6 +300,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ShallyPotter.NSOperation-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -301,7 +309,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NSOperation_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +318,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ShallyPotter.NSOperation-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
